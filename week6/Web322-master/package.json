@@ -1,0 +1,28 @@
+{
+  "name": "web322_a6",
+  "version": "1.0.0",
+  "description": "Those are my files from web322 assigments from Seneca college. I'm using this repository mainly for having my updated code anywhere, so the website doesn't necessarily work properly. ### Feel free to use it as reference, but please don't copy the code, this would affect not only me but you aswell. :wink:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Doyeon Kim",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "client-sessions": "^0.8.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.1",
+    "multer": "^1.4.1",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.1.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {}
+}

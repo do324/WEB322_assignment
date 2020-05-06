@@ -1,0 +1,26 @@
+    <head>
+        <link href="../site.css" rel="stylesheet">
+    </head>
+
+<div class="row">
+    <div class="col-md-12">
+          <h2>Departments <a href="/departments/add" class="btn btn-success pull-right">Add New Department</a></h2>
+          <hr />
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Department Number</td>
+                        <td>Department Name</td>
+                    </tr>
+                </thead>
+                {{#each data}}
+                    <tr>
+                        <td><a href="/department/{{this.departmentId}}">{{this.departmentId}}</a></td>
+                        <td><a href="/department/{{this.departmentId}}">{{this.departmentName}}</a></td>
+                    </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+</div>
